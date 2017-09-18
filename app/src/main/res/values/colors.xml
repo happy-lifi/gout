@@ -2,5 +2,34 @@
 <resources>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
+    <color name="Indigo_colorPrimary">#3f51b5</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="translucent_background">#90000000</color>
+    <color name="startbtn_color">#19c41c</color>
+    <color name="stopbtn_color">#f25347</color>
+    <color name="pausebtn_color">#f29f31</color>
+    <color name="cardview_dark_background">#fcfbfb</color>
+    <color name="colorInActive">#7FFFD4</color>
+    <color name="colorBarBg">#FFA07A</color>
+    <color name="white">#FFFFFF</color>
+    <color name="iron">#CCCCCC</color>
+    <color name="primary">#DB2442</color>
+    <color name="primary_dark">#E12929</color>
+    <color name="primary_darker">#CC1D1D</color>
+    <color name="accent">#FFFFFF</color>
+
+    <color name="black">#000000</color>
+    <color name="jet">#222222</color>
+    <color name="oil">#333333</color>
+    <color name="monsoon">#777777</color>
+    <color name="jumbo">#888888</color>
+    <color name="aluminum">#999999</color>
+    <color name="base">#AAAAAA</color>
+
+    <color name="yellow">#fd9c06</color>
+    <color name="red">#EE2C2C</color>
+    <color name="grey">#BDBDBD</color>
+    <color name="color_one">#FDE4BB</color>
+    <color name="color_two">#FCD2A1</color>
+    <color name="color_three">#EF8273</color>
 </resources>

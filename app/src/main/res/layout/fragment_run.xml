@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="225dp"
+    android:layout_width="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:weightSum="1">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.6"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="100"
+                android:id="@+id/distanceLabel"
+                android:textColor="@color/Indigo_colorPrimary"
+                android:textSize="80sp"
+                android:layout_weight="0.6"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="总公里"
+                android:id="@+id/textView3"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/Indigo_colorPrimary"
+                android:textAlignment="center"
+                android:textSize="35sp"
+                android:layout_weight="0.4" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.4">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="RUN"
+                android:id="@+id/run"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/Indigo_colorPrimary"
+                android:textAlignment="center"
+                android:textSize="35sp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</RelativeLayout>
+
