@@ -78,7 +78,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".RunningActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -86,7 +86,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".Register" />
-        <!-- <activity android:name=".Location" /> -->
         <!-- 通过AndroidManifest配置AppKey和AppSecret，如果你选择通过代码配置，则不需要配置以下meta-data -->
         <meta-data
             android:name="Mob-AppKey"
@@ -102,15 +101,7 @@
 
         <service android:name="com.amap.api.location.APSService" />
 
-        <activity android:name=".Login" />
-        <activity
-            android:name=".RecordActivity"
-            android:label="@string/app_name"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".RecordShowActivity"
-            android:label="@string/app_name"
-            android:screenOrientation="portrait" />
+        <activity android:name=".MainActivity" />
         <!--
  ATTENTION: This was auto-generated to add Google Play services to your project for
      App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
@@ -122,7 +113,7 @@
             android:name=".HistoryActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
-            android:name=".RunningActivity"
+            android:name=".Login"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name=".RunActivity"

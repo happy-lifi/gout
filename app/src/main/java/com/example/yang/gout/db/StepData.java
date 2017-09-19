@@ -1,5 +1,4 @@
 package com.example.yang.gout.db;
-
 import com.litesuits.orm.db.annotation.Column;
 import com.litesuits.orm.db.annotation.PrimaryKey;
 import com.litesuits.orm.db.annotation.Table;

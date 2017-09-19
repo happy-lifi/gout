@@ -58,7 +58,7 @@ public class Setting_fragment extends Fragment {
                              Bundle savedInstanceState) {
 
 
-        return inflater.inflate(R.layout.fragment_layout_03,null);
+        return inflater.inflate(R.layout.fragment_setting,null);
     }
 
     @Override
